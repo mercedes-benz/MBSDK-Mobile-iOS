@@ -1,0 +1,11 @@
+framework module MBMobileSDKSend2CarExtension {
+  umbrella header "MBMobileSDKSend2CarExtension.h"
+
+  export *
+  module * { export * }
+}
+
+module MBMobileSDKSend2CarExtension.Swift {
+    header "MBMobileSDKSend2CarExtension-Swift.h"
+    requires objc
+}

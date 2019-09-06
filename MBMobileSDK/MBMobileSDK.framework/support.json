@@ -1,0 +1,282 @@
+{
+  "support_locations": [
+    {
+      "locale": "de_AT",
+      "beta_number": "+43 13 60 27 73 025",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+43 13 60 27 73 023",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "nl_BE",
+      "beta_number": "+32 2 620 01 61",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+32 2 620 03 08",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "bg_BG",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+359 88 94 00 071",
+      "e-mail": "me-connect.bgr@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "en_CA",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+359 88 94 00 071",
+      "e-mail": "me-connect.can@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "hr_HR",
+      "fallback_number": "0800 10 40",
+      "preferred_number": "+385 13 64 48 73",
+      "e-mail": "me-connect.hrv@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "cs_CZ",
+      "beta_number": "+420 225 376 443",
+      "fallback_number": "00800 9777 7777",
+      "preferred_number": "+420 296 335 601",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "da_DK",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+45 35 15 81 07",
+      "e-mail": "cs.dnk@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "fi_FI",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+358 9 817 10 086",
+      "e-mail": "cs.fin@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "fr_FR",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+33 1 70 48 01 53",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "de_DE",
+      "beta_number": "+49 69 95307 195",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+49 69 95307 399",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "el_GR",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+30 21 12 11 15 97",
+      "e-mail": "me-connect.grc@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "hu_HU",
+      "beta_number": "+36 1 328 5344",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+36 1 235 5301",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "en_IE",
+      "beta_number": "+35 315 251 811",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+44 207 660 9993",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "it_IT",
+      "beta_number": "+39 02 385 911 53",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+39 02 023 859 133 1",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ja_JP",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "'+813663449 34",
+      "e-mail": "me-connect.jpn@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ko_KR",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "'+827047844 386",
+      "e-mail": "me-connect.kor@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "lv_LV",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+371 66 09 05 11",
+      "e-mail": "me-connect.lva@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "de_LI",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+41 2 25 67 53 36",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "lt_LT",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+370 52 14 30 91",
+      "e-mail": "me-connect-ltu@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "de_lu",
+      "beta_number": "+352 27 30 21 77",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+370 52 14 30 91",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "fr-lu",
+      "beta_number": "+352 27 30 21 77",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+370 52 14 30 91",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "mt_MT",
+      "fallback_number": "0 80062867",
+      "preferred_number": "+356 27780527",
+      "e-mail": "me-connect-mlt@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "nb_NO",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "'+47 235 00 375",
+      "e-mail": "cs.nor@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "pl_PL",
+      "beta_number": "+48 22 584 4284",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+48 22 354 4001",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ro_RO",
+      "fallback_number": "0 800 672397",
+      "preferred_number": "+40 745 232 424",
+      "e-mail": "me-connect.rou@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "sk_SK",
+      "beta_number": "+421 250 112 016",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+421 250 102 601",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "sl_SI",
+      "fallback_number": "080 19 11",
+      "preferred_number": "+ 386 15 30 5315",
+      "e-mail": "me-connect.svn@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "en_ZA",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+27 21 67 22 304",
+      "e-mail": "customerservice.southafrica@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "es_ES",
+      "beta_number": "+34 913 753 378",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+34 900 268 888",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ca_ES",
+      "beta_number": "+34 913 753 378",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+34 900 268 888",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "sv_SE",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "'+46 85 19 92 103",
+      "e-mail": "cs.swe@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "fr_CH",
+      "beta_number": "+41 2 25 67 51 05",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+41 2 25 67 53 36",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "de_CH",
+      "beta_number": "+41 2 25 67 51 05",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+41 2 25 67 53 36",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "it_CH",
+      "beta_number": "+41 2 25 67 51 05",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+41 2 25 67 53 36",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "nl_NL",
+      "beta_number": "+31 20 7219 004",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+31 20 7219 100",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "tr_TR",
+      "fallback_number": "'+90 2123755867",
+      "preferred_number": "+31 43 381 2240",
+      "e-mail": "cs-tur@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ae_AZ",
+      "fallback_number": "+800 66 323",
+      "preferred_number": "+97143101866",
+      "e-mail": "me-connect.are-az@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ae_DU",
+      "fallback_number": "+800 66 323",
+      "preferred_number": "+97143101966",
+      "e-mail": "me-connect.are-du@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "et",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+372 88 01 593",
+      "e-mail": "me-connect.est@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "el_CY",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+357 22 23 23 09",
+      "e-mail": "me-connect.grc@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "en_GB",
+      "beta_number": "+44 207 6600440",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+44 207 6609993",
+      "e-mail": "mercedes_me@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "en_US",
+      "fallback_number": "",
+      "preferred_number": "",
+      "e-mail": "me- connect.usa@cac.mercedes-benz.com"
+    },
+    {
+      "locale": "ru_RU",
+      "fallback_number": "00800 9 777 77 77",
+      "preferred_number": "+74957059768",
+      "e-mail": "me-connect.rus@cac.mercedes-benz.com"
+    }
+  ],
+  "fallback_number": "00800 9 777 77 77",
+  "fallback_mail": "mercedes_me@cac.mercedes-benz.com"
+}
