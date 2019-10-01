@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "MBMobileSDKSend2CarExtension"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "MBMobileSDK Share-Extension" 
   s.description   = "MBMobileSDK Share-Extenion is a public Pod of MBition GmbH"
   s.homepage      = "https://mbition.io"

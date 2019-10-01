@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "MBMobileSDK"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "MBMobileSDK" 
   s.description   = "MBMobileSDK is a public Pod of MBition GmbH"
   s.homepage      = "https://mbition.io"
