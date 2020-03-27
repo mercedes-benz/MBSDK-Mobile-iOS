@@ -1,0 +1,34 @@
+input_dir: MBMobileSDK/Resources
+output_dir: MBMobileSDK/Generated/SwiftGen
+
+colors:
+  - inputs: colors.xml
+    outputs:
+      templateName: swift4
+      output: MBColors.swift
+      params:
+        enumName: MBColorName
+
+fonts:
+  - inputs: Fonts
+    outputs:
+      templateName: swift4
+      output: Fonts.swift
+
+ib:
+  - inputs: Storyboards
+    outputs:
+    - templateName: scenes-swift4
+      output: Scenes.swift
+      params:
+        ignoreTargetModule: true
+    - templateName: segues-swift4
+      output: Segues.swift
+
+xcassets:
+  - inputs: Assets.xcassets
+    outputs:
+      templateName: swift4
+      output: MBImages.swift
+      params:
+        enumName: MBImageName

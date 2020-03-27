@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MBSectionHeaderView" customModule="MBUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="separatorView" destination="LEw-QF-qOF" id="M2g-ON-3RC"/>
+                <outlet property="shadowView" destination="t6y-N5-yuG" id="sRg-zI-9Vg"/>
+                <outlet property="titleLabel" destination="Mte-Ee-jRI" id="3jQ-V2-oaH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MBSectionHeaderView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6y-N5-yuG" customClass="MBShadowView" customModule="MBUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" placeholder="YES" id="ZL9-24-6W4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xh3-Fe-TDG">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="5PY-dg-pHm"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mte-Ee-jRI" customClass="MBOverlineLabel" customModule="MBUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="8" width="288" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Zse-iS-opn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LEw-QF-qOF" customClass="MBSeparatorView" customModule="MBUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="63" width="482" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" placeholder="YES" id="Dbf-PA-iEq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="top" secondItem="Mte-Ee-jRI" secondAttribute="top" constant="-8" id="1Of-jE-d0b"/>
+                <constraint firstItem="t6y-N5-yuG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3tS-4t-0Wl"/>
+                <constraint firstItem="Mte-Ee-jRI" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" constant="-8" id="4nh-DO-pLs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LEw-QF-qOF" secondAttribute="trailing" id="5Oh-nj-ZBI"/>
+                <constraint firstAttribute="bottom" secondItem="LEw-QF-qOF" secondAttribute="bottom" id="5xv-5y-oJ5"/>
+                <constraint firstItem="xh3-Fe-TDG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DzX-8J-iSj"/>
+                <constraint firstAttribute="trailing" secondItem="t6y-N5-yuG" secondAttribute="trailing" id="IyZ-oN-pV2"/>
+                <constraint firstAttribute="bottom" secondItem="xh3-Fe-TDG" secondAttribute="bottom" id="Mze-qF-F7q"/>
+                <constraint firstItem="xh3-Fe-TDG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SQ9-mj-reo"/>
+                <constraint firstAttribute="trailing" secondItem="Mte-Ee-jRI" secondAttribute="trailing" constant="16" id="Xyl-1z-b4f"/>
+                <constraint firstItem="Mte-Ee-jRI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="YW6-bX-lHA"/>
+                <constraint firstItem="t6y-N5-yuG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aN3-6f-yw0"/>
+                <constraint firstItem="LEw-QF-qOF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ckp-RP-jO1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xh3-Fe-TDG" secondAttribute="trailing" id="fNx-FV-zAC"/>
+                <constraint firstItem="Mte-Ee-jRI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="l2l-T5-21x"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-126.08695652173914" y="-184.15178571428569"/>
+        </view>
+    </objects>
+</document>

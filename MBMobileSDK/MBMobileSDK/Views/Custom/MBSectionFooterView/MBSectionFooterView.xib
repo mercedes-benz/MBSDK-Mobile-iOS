@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MBSectionFooterView" customModule="MBUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="shadowView" destination="t6y-N5-yuG" id="bv0-Cf-Gvr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MBSectionHeaderView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="16"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ya-In-dg1">
+                    <rect key="frame" x="0.0" y="0.0" width="272" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="183-2p-h2J"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6y-N5-yuG" customClass="MBShadowView" customModule="MBUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="-1" width="272" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" placeholder="YES" id="ZL9-24-6W4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="t6y-N5-yuG" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="top" id="3tS-4t-0Wl"/>
+                <constraint firstItem="7Ya-In-dg1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="B4h-vg-cPi"/>
+                <constraint firstAttribute="trailing" secondItem="t6y-N5-yuG" secondAttribute="trailing" id="IyZ-oN-pV2"/>
+                <constraint firstItem="7Ya-In-dg1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L8U-vr-bUb"/>
+                <constraint firstAttribute="bottom" secondItem="7Ya-In-dg1" secondAttribute="bottom" id="X3S-VD-6zy"/>
+                <constraint firstItem="t6y-N5-yuG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aN3-6f-yw0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Ya-In-dg1" secondAttribute="trailing" id="jtF-VW-TaW"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-324.375" y="-185"/>
+        </view>
+    </objects>
+</document>

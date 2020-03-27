@@ -1,0 +1,11 @@
+input_dir: MBMobileSDK/Resources
+output_dir: MBMobileSDK/Generated/SwiftGen
+
+strings:
+  - inputs: [
+      Localization/en.lproj/Localizable.strings,
+      IdentifierUI.strings
+      ]
+    outputs:
+      templateName: structured-swift4
+      output: Localizations.swift

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+GENERATED - DO NOT MODIFY - use StringResGen instead.
+
+Created by StringResGen.
+-->
+<resources>
+	<color name="ris_black">#000000FF</color>
+	<color name="ris_grey0">#1F1F1FFF</color>
+	<color name="ris_grey2">#666666FF</color>
+	<color name="ris_grey3">#DDDDDDFF</color>
+	<color name="ris_grey4">#ECECECFF</color>
+	<color name="ris_grey5">#F4F4F4FF</color>
+	<color name="ris_white">#FFFFFFFF</color>
+	<color name="ris_accent_primary">#3088C5FF</color>
+	<color name="ris_accent_secondary">#3FACF2FF</color>
+	<color name="ris_status_error">#9F1901FF</color>
+	<color name="ris_status_medium">#F8BE02FF</color>
+	<color name="ris_status_success">#338A00FF</color>
+	<color name="ris_status_error_darkbackground">#E50013FF</color>
+</resources>

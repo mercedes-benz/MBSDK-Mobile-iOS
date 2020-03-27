@@ -1,0 +1,11 @@
+/*
+GENERATED - DO NOT MODIFY - use StringResGen instead.
+
+Created by StringResGen.
+*/
+"login_view"="login_view";
+"login_button_next"="login_button_next";
+"login_textfield"="login_textfield";
+"verification_pin_textfield"="verification_pin_textfield";
+"verification_btn_login"="verification_button_login";
+"verification_btn_send_again"="verification_button_send_again";

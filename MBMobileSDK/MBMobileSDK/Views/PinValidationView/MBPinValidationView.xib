@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MBPinValidationView" id="iN0-l3-epB" customClass="MBPinValidationView" customModule="MBUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="137"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rp6-E5-5xR">
+                    <rect key="frame" x="16" y="0.0" width="218" height="41"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please input your current pin to confirm this action." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-18-1zc" customClass="MBBody1Label" customModule="MBUIKit" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="218" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccC-eq-6V2" customClass="MBPinView" customModule="MBUIKit" customModuleProvider="target">
+                    <rect key="frame" x="45" y="57" width="160" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ccC-eq-6V2" firstAttribute="top" secondItem="rp6-E5-5xR" secondAttribute="bottom" constant="16" id="ELc-k7-aN7"/>
+                <constraint firstItem="rp6-E5-5xR" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-16" id="ObU-Xt-7Gh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ccC-eq-6V2" secondAttribute="trailing" constant="45" id="Ss6-Be-UDU"/>
+                <constraint firstItem="rp6-E5-5xR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZbM-0w-oZe"/>
+                <constraint firstItem="ccC-eq-6V2" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="bVT-9S-bKc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ccC-eq-6V2" secondAttribute="bottom" constant="24" id="ea4-yG-8la"/>
+                <constraint firstItem="ccC-eq-6V2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="45" id="lkS-fA-Pdn"/>
+                <constraint firstItem="rp6-E5-5xR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="sDI-CG-n47"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="captionLabel" destination="oD8-18-1zc" id="RmT-TJ-wr3"/>
+                <outlet property="pinView" destination="ccC-eq-6V2" id="5wa-2Z-fe5"/>
+            </connections>
+            <point key="canvasLocation" x="-62.399999999999999" y="-186.65667166416793"/>
+        </view>
+    </objects>
+</document>

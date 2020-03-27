@@ -1,0 +1,9 @@
+ib:
+  - inputs: ./Example/Resources/Storyboards
+    outputs:
+    - templateName: scenes-swift4
+      output: ./Example/Generated/SwiftGen/Scenes.swift
+      params:
+        ignoreTargetModule: true
+    - templateName: segues-swift4
+      output: ./Example/Generated/SwiftGen/Segues.swift

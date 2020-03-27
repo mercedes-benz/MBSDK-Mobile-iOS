@@ -1,0 +1,103 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - JWTDecode (2.4.1)
+  - MBCarKit (2.0.0):
+    - MBCommonKit (~> 2.0)
+    - MBNetworkKit/Basic (~> 2.0)
+    - MBNetworkKit/Socket (~> 2.0)
+    - MBRealmKit/Layer (~> 2.0)
+    - SwiftProtobuf (~> 1.0)
+    - ZIPFoundation (~> 0.9)
+  - MBCommonKit (2.0.0):
+    - MBCommonKit/All (= 2.0.0)
+  - MBCommonKit/All (2.0.0):
+    - MBCommonKit/Logger
+    - MBCommonKit/Protocols
+    - MBCommonKit/Tracking
+  - MBCommonKit/Logger (2.0.0)
+  - MBCommonKit/Protocols (2.0.0)
+  - MBCommonKit/Tracking (2.0.0)
+  - MBIngressKit (2.0.0):
+    - JWTDecode (~> 2.1)
+    - MBCommonKit/Logger (~> 2.0)
+    - MBCommonKit/Protocols (~> 2.0)
+    - MBNetworkKit/Basic (~> 2.0)
+    - MBNetworkKit/Image (~> 2.0)
+    - MBRealmKit/Layer (~> 2.0)
+  - MBNetworkKit (2.0.0):
+    - MBNetworkKit/All (= 2.0.0)
+  - MBNetworkKit/All (2.0.0):
+    - MBNetworkKit/Basic (~> 2.0)
+    - MBNetworkKit/Image (~> 2.0)
+    - MBNetworkKit/Socket (~> 2.0)
+  - MBNetworkKit/Basic (2.0.0):
+    - Alamofire (~> 4.7)
+  - MBNetworkKit/Image (2.0.0):
+    - AlamofireImage (~> 3.3)
+    - MBNetworkKit/Basic (~> 2.0)
+  - MBNetworkKit/Socket (2.0.0):
+    - MBCommonKit/Logger (~> 2.0)
+    - MBCommonKit/Protocols (~> 2.0)
+    - Starscream (~> 3.0)
+  - MBRealmKit/Layer (2.0.0):
+    - MBCommonKit/Logger (~> 2.0)
+    - RealmSwift (~> 4.0)
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+  - Starscream (3.1.1)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.39.1)
+  - SwiftProtobuf (1.8.0)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - MBCarKit (~> 2.0)
+  - MBCommonKit (~> 2.0)
+  - MBIngressKit (~> 2.0)
+  - MBNetworkKit (~> 2.0)
+  - SwiftGen (~> 6.0)
+  - SwiftLint (~> 0.30)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - JWTDecode
+    - MBCarKit
+    - MBCommonKit
+    - MBIngressKit
+    - MBNetworkKit
+    - MBRealmKit
+    - Realm
+    - RealmSwift
+    - Starscream
+    - SwiftGen
+    - SwiftLint
+    - SwiftProtobuf
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  JWTDecode: 4bd4da0cdf0f8154fd467fa48499f34ec057fb88
+  MBCarKit: 0db8457f5960fbb1f47e6905266f027b7da47569
+  MBCommonKit: fb0965b35766ae7b5038aeecd4ce34a0db888983
+  MBIngressKit: 7645b768047cc76e4ebd313e0e4a6f7ed9c1a20e
+  MBNetworkKit: cd4052b210f8b88c63e3d8347c87fd989ffe6a22
+  MBRealmKit: 6e8ab03007619b2a0085a681053ec6e5bdca7a63
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+  SwiftProtobuf: 2cbd9409689b7df170d82a92a33443c8e3e14a70
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 1e98dc440194ac2c77a6113901e8e91b66f9f6c4
+
+COCOAPODS: 1.9.0

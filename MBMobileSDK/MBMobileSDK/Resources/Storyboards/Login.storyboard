@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Native Login View Controller-->
+        <scene sceneID="fX1-Ga-Drh">
+            <objects>
+                <viewController storyboardIdentifier="NativeLoginViewController" id="EFU-Yg-MUv" customClass="NativeLoginViewController" customModule="MBMobileSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SXM-BC-0gN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="and-E5-gAg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Po8-fq-iu5">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zj-rF-CwS" customClass="MBBaseButton" customModule="MBMobileSDK">
+                                                <rect key="frame" x="268" y="53.5" width="34" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="5Zj-rF-CwS" secondAttribute="height" multiplier="1:1" id="xqB-9h-hqg"/>
+                                                </constraints>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mercedes me ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9d-v8-ZUj" customClass="MBHeadlineSerif4Label" customModule="MBMobileSDK">
+                                                <rect key="frame" x="97.5" y="60" width="125" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Login or register for free" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7c-zR-cBj" customClass="MBHeadlineSerif5Label" customModule="MBMobileSDK">
+                                                <rect key="frame" x="67.5" y="331.5" width="185" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pva-A1-hwR">
+                                                <rect key="frame" x="16" y="368" width="288" height="120"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k8F-wJ-dGZ" customClass="MBTextField" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="48" id="z9k-dE-sgW"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w72-Gb-1rK" customClass="MBPrimaryButton" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="0.0" y="68" width="288" height="52"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="52" id="P96-CG-t9Z"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="pva-A1-hwR" firstAttribute="leading" secondItem="Po8-fq-iu5" secondAttribute="leading" constant="16" id="1U0-eg-L0c"/>
+                                            <constraint firstItem="B9d-v8-ZUj" firstAttribute="centerX" secondItem="Po8-fq-iu5" secondAttribute="centerX" id="A4h-6y-y61"/>
+                                            <constraint firstItem="V7c-zR-cBj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="B9d-v8-ZUj" secondAttribute="bottom" constant="8" symbolic="YES" id="D2i-ed-0XS"/>
+                                            <constraint firstItem="V7c-zR-cBj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Po8-fq-iu5" secondAttribute="leading" constant="16" id="Dyw-Z4-t1l"/>
+                                            <constraint firstAttribute="bottom" secondItem="pva-A1-hwR" secondAttribute="bottom" constant="80" id="E8S-PX-XBi"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="V7c-zR-cBj" secondAttribute="trailing" constant="16" id="PLR-Hm-dPr"/>
+                                            <constraint firstAttribute="trailing" secondItem="pva-A1-hwR" secondAttribute="trailing" constant="16" id="Swc-hy-hBg"/>
+                                            <constraint firstItem="5Zj-rF-CwS" firstAttribute="centerY" secondItem="B9d-v8-ZUj" secondAttribute="centerY" id="U5e-F7-SZI"/>
+                                            <constraint firstItem="V7c-zR-cBj" firstAttribute="centerX" secondItem="Po8-fq-iu5" secondAttribute="centerX" id="Wt7-Nj-qfO"/>
+                                            <constraint firstItem="k8F-wJ-dGZ" firstAttribute="top" secondItem="V7c-zR-cBj" secondAttribute="bottom" constant="16" id="o7D-Y8-5N4"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Po8-fq-iu5" firstAttribute="width" secondItem="and-E5-gAg" secondAttribute="width" id="7Ij-S5-Fcg"/>
+                                    <constraint firstItem="Po8-fq-iu5" firstAttribute="height" secondItem="and-E5-gAg" secondAttribute="height" id="LSp-Oa-ADZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Po8-fq-iu5" secondAttribute="bottom" id="PrB-Qu-T4A"/>
+                                    <constraint firstItem="Po8-fq-iu5" firstAttribute="leading" secondItem="and-E5-gAg" secondAttribute="leading" id="e7b-KV-pV6"/>
+                                    <constraint firstItem="Po8-fq-iu5" firstAttribute="top" secondItem="and-E5-gAg" secondAttribute="top" id="mXd-PT-d7b"/>
+                                    <constraint firstAttribute="trailing" secondItem="Po8-fq-iu5" secondAttribute="trailing" id="xYo-bD-sn3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Xi7-RW-D9h" firstAttribute="bottom" secondItem="and-E5-gAg" secondAttribute="bottom" id="I4r-AA-VvP"/>
+                            <constraint firstItem="Xi7-RW-D9h" firstAttribute="trailing" secondItem="and-E5-gAg" secondAttribute="trailing" id="K0q-sZ-YMv"/>
+                            <constraint firstItem="Xi7-RW-D9h" firstAttribute="leading" secondItem="and-E5-gAg" secondAttribute="leading" id="MI7-bd-cox"/>
+                            <constraint firstItem="Xi7-RW-D9h" firstAttribute="trailing" secondItem="5Zj-rF-CwS" secondAttribute="trailing" constant="18" id="XLv-NV-ggB"/>
+                            <constraint firstItem="and-E5-gAg" firstAttribute="top" secondItem="Xi7-RW-D9h" secondAttribute="top" id="gmG-h3-0YR"/>
+                            <constraint firstItem="B9d-v8-ZUj" firstAttribute="top" secondItem="Xi7-RW-D9h" secondAttribute="top" priority="750" constant="60" id="moP-I9-ls0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xi7-RW-D9h"/>
+                    </view>
+                    <connections>
+                        <outlet property="captionLabel" destination="V7c-zR-cBj" id="DdO-Nd-0ut"/>
+                        <outlet property="headerLabel" destination="B9d-v8-ZUj" id="lWh-7P-h5n"/>
+                        <outlet property="mercedesMeIDButton" destination="5Zj-rF-CwS" id="tiJ-5u-2DQ"/>
+                        <outlet property="scrollView" destination="and-E5-gAg" id="K3D-KM-o6q"/>
+                        <outlet property="sendButton" destination="w72-Gb-1rK" id="r0j-0A-Bcg"/>
+                        <outlet property="textField" destination="k8F-wJ-dGZ" id="4I3-6N-4zT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdG-dM-YIM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="51"/>
+        </scene>
+        <!--Verify Pin View Controller-->
+        <scene sceneID="FUm-n5-CV9">
+            <objects>
+                <viewController storyboardIdentifier="VerifyPinViewController" id="Fma-Kx-YnX" customClass="VerifyPinViewController" customModule="MBMobileSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q3G-yO-nLB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDw-Hk-EoY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TU1-Ok-dQ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="596"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXj-BF-cer">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="364"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZL-xq-WCc" customClass="MBHeadlineSubtitleView" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="16" y="12" width="288" height="192"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="250" constant="20" id="gZg-XH-ZOV"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="220" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="XS0-Ox-qD5" customClass="MBPinView" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="50" y="228" width="220" height="44"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMp-aN-13a" customClass="MBPrimaryButton" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="16" y="288" width="288" height="52"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="52" id="kb7-d5-SCr"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="QMp-aN-13a" firstAttribute="leading" secondItem="zXj-BF-cer" secondAttribute="leading" constant="16" id="5F9-Tk-gMy"/>
+                                                    <constraint firstItem="BZL-xq-WCc" firstAttribute="top" secondItem="zXj-BF-cer" secondAttribute="top" constant="12" id="8Me-vL-AIU"/>
+                                                    <constraint firstItem="QMp-aN-13a" firstAttribute="top" secondItem="XS0-Ox-qD5" secondAttribute="bottom" constant="16" id="Cel-mb-yke"/>
+                                                    <constraint firstItem="XS0-Ox-qD5" firstAttribute="top" secondItem="BZL-xq-WCc" secondAttribute="bottom" constant="24" id="Hb0-z7-6od"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QMp-aN-13a" secondAttribute="trailing" constant="16" id="PHg-qb-XNc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="BZL-xq-WCc" secondAttribute="trailing" constant="16" id="PfC-Om-BPa"/>
+                                                    <constraint firstItem="BZL-xq-WCc" firstAttribute="leading" secondItem="zXj-BF-cer" secondAttribute="leading" constant="16" id="Wu0-VW-Th2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QMp-aN-13a" secondAttribute="bottom" constant="24" id="jh5-38-Hjx"/>
+                                                    <constraint firstItem="BZL-xq-WCc" firstAttribute="centerX" secondItem="zXj-BF-cer" secondAttribute="centerX" id="sux-mu-5Dv"/>
+                                                    <constraint firstItem="XS0-Ox-qD5" firstAttribute="centerX" secondItem="zXj-BF-cer" secondAttribute="centerX" id="xMS-Dt-10E"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73s-pn-Rc5" customClass="MBSectionSeparatorView" customModule="MBMobileSDK" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="364" width="320" height="16"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="0yO-MB-NSO"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOi-Yw-bdy">
+                                                <rect key="frame" x="0.0" y="380" width="320" height="200"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVB-yy-wbw" customClass="MBHeadlineSubtitleView" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="16" y="8" width="288" height="92"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="250" constant="20" id="Fr0-E0-FzN"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwW-Ev-Hb0" customClass="MBSecondaryButton" customModule="MBMobileSDK">
+                                                        <rect key="frame" x="16" y="124" width="288" height="52"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="52" id="OYL-PE-kE5"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="CVB-yy-wbw" firstAttribute="leading" secondItem="pwW-Ev-Hb0" secondAttribute="leading" id="5pI-az-dTq"/>
+                                                    <constraint firstItem="pwW-Ev-Hb0" firstAttribute="leading" secondItem="gOi-Yw-bdy" secondAttribute="leading" constant="16" id="MXP-si-b1l"/>
+                                                    <constraint firstAttribute="bottom" secondItem="pwW-Ev-Hb0" secondAttribute="bottom" constant="24" id="Qbu-Z6-5uL"/>
+                                                    <constraint firstItem="CVB-yy-wbw" firstAttribute="top" secondItem="gOi-Yw-bdy" secondAttribute="top" constant="8" id="baG-hD-KQD"/>
+                                                    <constraint firstItem="CVB-yy-wbw" firstAttribute="trailing" secondItem="pwW-Ev-Hb0" secondAttribute="trailing" id="mvw-St-lqI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="pwW-Ev-Hb0" secondAttribute="trailing" constant="16" id="woS-JQ-XW2"/>
+                                                    <constraint firstItem="pwW-Ev-Hb0" firstAttribute="top" secondItem="CVB-yy-wbw" secondAttribute="bottom" constant="24" id="zqN-6s-QdZ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZI-Yi-Fag" customClass="MBSectionFooterView" customModule="MBMobileSDK" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="580" width="320" height="16"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="FSQ-tj-aQC"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="TU1-Ok-dQ0" secondAttribute="bottom" id="11s-eW-T2W"/>
+                                    <constraint firstAttribute="trailing" secondItem="TU1-Ok-dQ0" secondAttribute="trailing" id="8MY-ST-a9E"/>
+                                    <constraint firstItem="TU1-Ok-dQ0" firstAttribute="top" secondItem="KDw-Hk-EoY" secondAttribute="top" id="Hz3-PN-uD9"/>
+                                    <constraint firstItem="TU1-Ok-dQ0" firstAttribute="leading" secondItem="KDw-Hk-EoY" secondAttribute="leading" id="lke-16-VUX"/>
+                                    <constraint firstItem="TU1-Ok-dQ0" firstAttribute="width" secondItem="KDw-Hk-EoY" secondAttribute="width" id="qPN-FY-Ac7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KDw-Hk-EoY" firstAttribute="leading" secondItem="2hy-rf-bk1" secondAttribute="leading" id="4J8-qe-zPM"/>
+                            <constraint firstItem="2hy-rf-bk1" firstAttribute="trailing" secondItem="KDw-Hk-EoY" secondAttribute="trailing" id="FNz-Po-EgR"/>
+                            <constraint firstItem="2hy-rf-bk1" firstAttribute="bottom" secondItem="KDw-Hk-EoY" secondAttribute="bottom" id="L44-0F-1yR"/>
+                            <constraint firstItem="KDw-Hk-EoY" firstAttribute="top" secondItem="q3G-yO-nLB" secondAttribute="top" id="wdJ-dT-cuY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2hy-rf-bk1"/>
+                    </view>
+                    <connections>
+                        <outlet property="noTanHeadlineSubtitleView" destination="CVB-yy-wbw" id="3Xo-aS-vPn"/>
+                        <outlet property="pinView" destination="XS0-Ox-qD5" id="lM0-tb-02U"/>
+                        <outlet property="retryButton" destination="pwW-Ev-Hb0" id="sPJ-db-JQd"/>
+                        <outlet property="scrollView" destination="KDw-Hk-EoY" id="4A1-MJ-Duf"/>
+                        <outlet property="sendButton" destination="QMp-aN-13a" id="2Qq-yp-bS4"/>
+                        <outlet property="tanHeadlineSubtitleView" destination="BZL-xq-WCc" id="i4n-tC-zO2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jiP-Vv-NIM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="551" y="51"/>
+        </scene>
+    </scenes>
+</document>
