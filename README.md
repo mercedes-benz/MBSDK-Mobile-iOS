@@ -1,4 +1,4 @@
-![MBMobileSDK](logo.jpg "Banner")
+![MBMobileSDK](logo.jpg "Banner")(https://github.com/Njogu-Brian)
 
 [![swift 5](https://img.shields.io/badge/swift-5-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![swift 5.1](https://img.shields.io/badge/swift-5.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
