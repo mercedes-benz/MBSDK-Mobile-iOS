@@ -1,0 +1,18 @@
+[
+    {
+        "reservationId": "abcde12345678",
+        "driveType": "PICK_UP",
+        "driveStatus": "READY",
+        "errorIds": ["no error"],
+        "estimatedTimeOfArrival": "2020-05-08T08:51:07.000Z",
+        "parkedLocation": "Parkhaus 307, Benzstr. 18, Sindelfinden"
+    },
+    {
+        "reservationId": "xyz9876543210",
+        "driveType": "DROP_OFF",
+        "driveStatus": "COMPLETED",
+        "errorIds": ["nothing here"],
+        "estimatedTimeOfArrival": "2020-04-16T22:09:23.000Z",
+        "parkedLocation": "Smart Area, Mercedesweg 52, Böblingen"
+    }
+]

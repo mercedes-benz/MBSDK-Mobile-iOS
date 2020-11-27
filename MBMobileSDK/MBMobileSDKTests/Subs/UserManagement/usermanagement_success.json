@@ -1,0 +1,37 @@
+{
+    "generalData": {
+        "maxNumberOfProfiles": 7,
+        "numberOfOccupiedProfiles": 3,
+        "profileSyncStatus": "ACTIVATE_IN_HEAD_UNIT"
+    },
+    "owner": {
+        "authorizationId": "0C9B54E83B",
+        "ciamId": "0012071a37af07b3",
+        "displayName": "Peter Quill",
+        "profilePictureLink": "https://inteceuserpicture.blob.core.windows.net/profilepictures/0012071a37af07b3.jpg?se=2019-12-03T10%3A08%3A12Z&sig=TmETQz%2FbsNNs1JilcMuWcsJLFoHxS62vO7Ds2hEdc%2Bg%3D&sp=r&spr=https&sr=b&sv=2018-11-09"
+    },
+    "subUsers": {
+        "pendingSubusers": [
+            {
+                "authorizationId": "0B8E92D584",
+                "ciamId": "0013071f74f362f4",
+                "email": "bruce.banner+int@mbition.com"
+            }
+        ],
+        "validSubusers": [
+            {
+                "authorizationId": "0B8E92D586",
+                "ciamId": "0013071f74f362f1",
+                "displayName": "Tony Stark",
+                "email": "tony.stark+int@mbition.com"
+            },
+            {
+                "authorizationId": "0B8E92D587",
+                "ciamId": "0013071f74f362f3",
+                "displayName": "Steve Rogers",
+                "email": "steve.rogers+int@mbition.com",
+                "profilePictureLink": "https://inteceuserpicture.blob.core.windows.net/profilepictures/0013071f74f362f2.jpg?se=2019-12-03T10%3A08%3A11Z&sig=hVSwjNtnvWbF7zGGyraX%2FdCBtO1nYrod7IF5ThgSetA%3D&sp=r&spr=https&sr=b&sv=2018-11-09"
+            }
+        ]
+    }
+}

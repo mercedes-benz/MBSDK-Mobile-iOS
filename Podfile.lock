@@ -1,0 +1,107 @@
+PODS:
+  - Alamofire (5.4.0)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - MBCommonKit (3.0.0):
+    - MBCommonKit/All (= 3.0.0)
+  - MBCommonKit/All (3.0.0):
+    - MBCommonKit/Logger
+    - MBCommonKit/Protocols
+    - MBCommonKit/Tracking
+  - MBCommonKit/Logger (3.0.0)
+  - MBCommonKit/Protocols (3.0.0)
+  - MBCommonKit/Tracking (3.0.0)
+  - MBNetworkKit (3.0.0):
+    - Alamofire (~> 5.0)
+    - AlamofireImage (~> 4.0)
+    - MBCommonKit/Logger (~> 3.0)
+    - MBCommonKit/Protocols (~> 3.0)
+    - Starscream (~> 4.0)
+    - TrustKit (~> 1.6)
+  - MBRealmKit (3.0.0):
+    - MBCommonKit/Logger (~> 3.0)
+    - Realm (~> 10.1)
+    - RealmSwift (~> 10.1)
+  - Nimble (8.1.2)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OHHTTPStubs/Swift (9.0.0):
+    - OHHTTPStubs/Default
+  - Quick (2.2.1)
+  - Realm (10.1.4):
+    - Realm/Headers (= 10.1.4)
+  - Realm/Headers (10.1.4)
+  - RealmSwift (10.1.4):
+    - Realm (= 10.1.4)
+  - Starscream (4.0.4)
+  - SwiftGen (6.4.0)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftLint (0.41.0)
+  - SwiftProtobuf (1.13.0)
+  - TrustKit (1.7.0)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - MBCommonKit (~> 3.0)
+  - MBNetworkKit (~> 3.0)
+  - MBRealmKit (~> 3.0)
+  - Nimble (~> 8.0)
+  - OHHTTPStubs/Swift (~> 9.0)
+  - Quick (~> 2.0)
+  - SwiftGen (~> 6.0)
+  - SwiftKeychainWrapper (~> 4.0)
+  - SwiftLint (~> 0.30)
+  - SwiftProtobuf (~> 1.0)
+  - ZIPFoundation (~> 0.9)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - MBCommonKit
+    - MBNetworkKit
+    - MBRealmKit
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+    - Realm
+    - RealmSwift
+    - Starscream
+    - SwiftGen
+    - SwiftKeychainWrapper
+    - SwiftLint
+    - SwiftProtobuf
+    - TrustKit
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  MBCommonKit: 99cfa577ea7ca7c2163796be4932b15dcc68f98a
+  MBNetworkKit: 005142d0505c31d548b42ebda1962165d03b6721
+  MBRealmKit: e559b9e3fd4f78ac8a6b58aba35562e455223e44
+  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  Realm: 80f4fb2971ccb9adc27a47d0955ae8e533a7030b
+  RealmSwift: 0e566ca714edb377bba8ea0811eafcea0b93734e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
+  SwiftProtobuf: fd4693388a96c8c2df35d3b063272b0e7c499d00
+  TrustKit: dac38bb37e49bdfeca41b1a19d020da38017b51c
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 3677793ca9bab5d9777cbab1da086d9dfb96fb1c
+
+COCOAPODS: 1.10.0

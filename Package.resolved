@@ -1,0 +1,142 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "9e0328127dfb801cefe8ac53a13c0c90a7770448",
+          "version": "5.4.0"
+        }
+      },
+      {
+        "package": "AlamofireImage",
+        "repositoryURL": "https://github.com/Alamofire/AlamofireImage.git",
+        "state": {
+          "branch": null,
+          "revision": "3e8edbeb75227f8542aa87f90240cf0424d6362f",
+          "version": "4.1.0"
+        }
+      },
+      {
+        "package": "MBCommonKit",
+        "repositoryURL": "https://github.com/Daimler/MBSDK-CommonKit-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "850ed1e9d650389dcb0bad17f50b0a1f775cb448",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "MBNetworkKit",
+        "repositoryURL": "https://github.com/Daimler/MBSDK-NetworkKit-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "d798d22a3ece09d9e95026cbfeea179143b01861",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "MBRealmKit",
+        "repositoryURL": "https://github.com/Daimler/MBSDK-RealmKit-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "1a0600975116a285754b343646f083234b5f95ed",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "7a46a5fc86cb917f69e3daf79fcb045283d8f008",
+          "version": "8.1.2"
+        }
+      },
+      {
+        "package": "OHHTTPStubs",
+        "repositoryURL": "https://github.com/AliSoftware/OHHTTPStubs.git",
+        "state": {
+          "branch": null,
+          "revision": "e92b5a5746ef16add2a1424f1fc19529d9a75cde",
+          "version": "9.0.0"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "09b3becb37cb2163919a3842a4c5fa6ec7130792",
+          "version": "2.2.1"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": null,
+          "revision": "a4c647a5b2705591bf9472aed46786d00b71ea2b",
+          "version": "10.1.4"
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "596fe8985a2bcdf3c6ecb0a7a8712b9ac5480c79",
+          "version": "10.1.3"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "SwiftProtobuf",
+        "repositoryURL": "https://github.com/apple/swift-protobuf.git",
+        "state": {
+          "branch": null,
+          "revision": "426bef0ddfdc6449b7bd1418baafad6bbc56110b",
+          "version": "1.13.0"
+        }
+      },
+      {
+        "package": "SwiftKeychainWrapper",
+        "repositoryURL": "https://github.com/jrendel/SwiftKeychainWrapper.git",
+        "state": {
+          "branch": null,
+          "revision": "185a3165346a03767101c4f62e9a545a0fe0530f",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "TrustKit",
+        "repositoryURL": "https://github.com/datatheorem/TrustKit.git",
+        "state": {
+          "branch": null,
+          "revision": "3c953558d61fdd9b136d981764e3242bd92b2648",
+          "version": "1.7.0"
+        }
+      },
+      {
+        "package": "ZIPFoundation",
+        "repositoryURL": "https://github.com/weichsel/ZIPFoundation.git",
+        "state": {
+          "branch": null,
+          "revision": "ec32d62d412578542c0ffb7a6ce34d3e64b43b94",
+          "version": "0.9.11"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

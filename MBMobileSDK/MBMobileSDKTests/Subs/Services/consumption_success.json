@@ -1,0 +1,43 @@
+{
+    "averageConsumption": {
+        "changed": true,
+        "unit": "km/l",
+        "value": 1.23
+    },
+    "consumptionData": {
+        "changed": false,
+        "value": [
+            {
+                "consumption": 3.33,
+                "group": 23,
+                "percentage": 0.77,
+                "unit": "l/100km"
+            }
+        ]
+    },
+    "individual30DaysConsumption": {
+        "lastUpdated": 1586338308,
+        "unit": "km/l",
+        "value": 35.0
+    },
+    "individualLifetimeConsumption": {
+        "changed": true,
+        "unit": "l/100km",
+        "value": 12.5
+    },
+    "individualResetConsumption": {
+        "changed": false,
+        "unit": "l/100km",
+        "value": 9.5
+    },
+    "individualStartConsumption": {
+        "changed": true,
+        "unit": "l/100km",
+        "value": 11.1
+    },
+    "wltpCombined": {
+        "changed": true,
+        "unit": "l/100km",
+        "value": 10.3
+    }
+}

@@ -1,0 +1,61 @@
+
+#disable following rules
+disabled_rules:
+  - todo
+
+# opt-in following rules
+opt_in_rules: 
+  - conditional_returns_on_newline
+  - fatal_error_message
+
+  #- empty_count
+
+# paths to include
+included:
+  - ./MBMobileSDK
+
+ # paths to ignore during linting
+excluded:
+  - MBMobileSDKTests/
+  - MBMobileSDK/Generated/Proto/
+
+# custom values
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+file_length:
+  warning: 1000
+  error: 1200
+
+force_cast: warning
+force_try: warning
+
+function_body_length:
+  warning: 50
+  error: 60
+
+identifier_name:
+  min_length: 
+    error: 0
+    warning: 0
+
+line_length: 
+  warning: 200
+  error: 220
+
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
+
+type_body_length:
+  warning: 250
+  error: 400
+
+vertical_whitespace:
+  max_empty_lines: 2
+
+#custom_rules:
+  # pod_version_numver:
+  #   regex: "^(?!.*#)(?!.*~>).*pod .*$"
+  #   included: "Podfile"
+  #   message: "Expected version number of the pod."

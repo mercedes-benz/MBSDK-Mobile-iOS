@@ -1,0 +1,46 @@
+import MBCommonKit
+
+// swiftlint:disable superfluous_disable_command
+// swiftlint:disable file_length
+// swiftlint:disable identifier_name line_length nesting type_body_length type_name function_body_length
+
+{% macro replaceEnumName params %}{{ params|replace:"TrackingService","TrackingEvent" }}{% endmacro %}
+{% for type in types.based.TrackingService %}
+{% if not forloop.first%}
+	
+
+{% endif %}
+// MARK: - {% call replaceEnumName type.name %}
+
+enum {% call replaceEnumName type.name %}: TrackingEvent {
+	{% for method in type.methods %}
+	case {% if method.parameters.count > 0 %}{{ method.name }}{% else %}{{ method.callName }}{% endif %}
+	{% endfor %}
+
+
+	// MARK: - Methods
+	
+	// map enum cases to convenient protocol functions
+	func track(trackingService: TrackingService) {
+
+		guard let service = trackingService as? {{ type.name }} else {
+			return
+		}
+
+		switch self {
+		{% for method in type.methods %}
+		case .{{ method.callName }}{% if method.parameters.count > 0 %}({% for parameter in method.parameters %}let {{ parameter.name}}{{ ', ' if not forloop.last }}{% endfor %}){% endif %}:
+			service.{{ method.callName }}({% for parameter in method.parameters %}{{ parameter.name}}: {{ parameter.name}}{{ ', ' if not forloop.last }}{% endfor %})
+			{% if not forloop.last%}
+				
+
+			{% endif %}
+		{% endfor %}
+		}
+	}
+}
+{% endfor %}
+
+// swiftlint:enable identifier_name line_length nesting type_body_length type_name function_body_length
+// swiftlint:enable file_length
+// swiftlint:enable superfluous_disable_command
