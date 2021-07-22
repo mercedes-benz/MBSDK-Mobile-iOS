@@ -9,6 +9,10 @@
 ![Version](https://img.shields.io/cocoapods/v/MBMobileSDK)
 [![swift-package-manager](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://github.com/apple/swift-package-manager)
 
+## This repository is archived.
+
+Mercedes-Benz Mobile SDK is archived and no longer officially supported. You can find more information about this decision in the [news article](https://developer.mercedes-benz.com/news/mercedes-benz-mobile-sdk-sundown) on Mercedes-Benz developer portal.
+
 ## Getting Started
 
 We highly recommend to have a look into the [Getting Started Guide](docs/getting_started.md) to get an idea on how to use the framework.
